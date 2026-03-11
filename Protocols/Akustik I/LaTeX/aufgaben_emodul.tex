@@ -10,6 +10,20 @@
 % Bitte belassen Sie die Aufgabentexte in Ihrem Protokoll und beginnen
 % Sie hier mit der Lösung der ersten Aufgabe:
 
+We measured the following values for $L$, $D$ and $M$ for the four different Materials: Aluminium, Brass, Steel and Copper. The values are listed in the following tables. The first table shows the values for Aluminium, Brass, Steel, and Copper.
+The tables also include the mean $\bar{x}$, the standard deviation of the measurements $\sigma$,
+and the standard error of the mean $\sigma_{\bar{x}}$ for each measurement ( which includes the 
+sum of the statistical error and the systemic error).
+
+\vspace{1em}
+
+The data also includes a dedicated figure for each material, it shows the time plot of 
+the measured signal and the corresponding Fourier spectrum of the total measurement time of two 
+seconds, while each signal (except material D: copper) plots includes the first 150 measurements to make the plots more
+clear, and for the last plor we only include the first 200 to 400 measurements due to high
+noise in the gathered data, we also conduct a fourier analysis for the first 200 to 1000
+measurements due to said noise. 
+
 \begin{table}[H]
 \centering
 $
@@ -31,6 +45,13 @@ D & 13.43 \text{ mm} &13.43 \text{ mm}  & 13.43 \text{ mm} & \sigma = 0.005  \te
 \end{array}
 $
 \caption{Aluminium table.}
+
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=0.8\textwidth]{StabA.pdf}  
+    \caption{Aluminium Stab: Zeitverlauf und fourier-Spektrum}  
+    \label{fig:stab_a}  
+\end{figure}
 \end{table}
 
 \begin{table}[H]
@@ -58,7 +79,14 @@ D &13.46 \text{ mm} &13.42 \text{ mm} & 13.47 \text{ mm}& \sigma = 0.016 \text{ 
 \end{array}
 $
 \caption{Brass table.}
+
 \end{table}
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=0.8\textwidth]{StabB.pdf}  
+    \caption{Brass Stab: Zeitverlauf und fourier-Spektrum}  
+    \label{fig:stab_b}  
+\end{figure}
 
 \begin{table}[H]
 \centering
@@ -85,6 +113,15 @@ D & 13.45 \text{ mm}& 14.03 \text{ mm} & 14 \text{ mm}& \sigma = 0.25 \text{ mm}
 \end{array}
 $
 \caption{Steel table.}
+
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=0.8\textwidth]{StabC.pdf}  
+    \caption{Steel Stab: Zeitverlauf und fourier-Spektrum}  
+    \label{fig:stab_c}  
+\end{figure}
+
 \end{table}
 
 \begin{table}[H]
@@ -112,15 +149,13 @@ D & & & & \sigma = 0\\
 \end{array}
 $
 \caption{Copper table.}
+\begin{figure}[H]  
+    \centering
+    \includegraphics[width=0.8\textwidth]{StabD.pdf}  
+    \caption{Copper Stab: Zeitverlauf und fourier-Spektrum}  
+    \label{fig:stab_d}  
+\end{figure}
 \end{table}
-
-
-
-
-
-
-
-
 
 % Achten Sie darauf, alle verwendeten Formeln anzugeben und die
 % verwendeten Formelzeichen zu definieren.

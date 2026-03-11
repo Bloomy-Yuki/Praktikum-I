@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1773184147.225 "/home/sophie/Documents/Praktikum-I/Protocols/Akustik I/LaTeX/Protokoll.tex" "Protokoll.pdf" "Protokoll" 1773184149.02941 0
+["pdflatex"] 1773230279.16989 "/home/sophie/Documents/Praktikum-I/Protocols/Akustik I/LaTeX/Protokoll.tex" "Protokoll.pdf" "Protokoll" 1773230281.0146 0
   "/etc/texmf/web2c/texmf.cnf" 1772346883.2788 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/sophie/Documents/Praktikum-I/Protocols/Akustik I/LaTeX/Protokoll.tex" 1773178462.85071 11749 ba4f5a5b6c3a9e2f880b857bb8c7e0fb ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -139,10 +139,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1772346920.04166 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1772346977 8214625 e508b977e187dc1c8769631c935f0cd9 ""
-  "Protokoll.aux" 1773184148.94068 2253 35e33c648a6ff4d9eb0f3f3ee7cd874c "pdflatex"
-  "Protokoll.out" 1773184148.74607 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Protokoll.aux" 1773230280.92447 3236 be2546464afaca83149faf4866401cc3 "pdflatex"
+  "Protokoll.out" 1773230280.69247 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Protokoll.tex" 1773178462.85071 11749 ba4f5a5b6c3a9e2f880b857bb8c7e0fb ""
-  "aufgaben_emodul.tex" 1773184147.03767 4423 9dff963b532c31b617fd3fddbbea6737 ""
+  "StabA.pdf" 1773225205.01465 27291 de2cf3999c443e23bd57e72f58066ced ""
+  "StabB.pdf" 1773225692.47788 26714 7a5fcadfcec2e48ccaf56544463450f2 ""
+  "StabC.pdf" 1773225723.82814 28251 477676a4ae619987bc78d3c3372a7f1d ""
+  "StabD.pdf" 1773225909.8267 21733 0723ebc19eea1ddebe302e15fbdfc682 ""
+  "aufgaben_emodul.tex" 1773230278.92044 6207 d550f490bc5938899ae2c09618663282 ""
   "beispiel_abbildung.pdf" 1772645934.9041 19289 610ce80f8b3a8557f1c85689f974e8d0 ""
   "protokoll.cls" 1772645931.71918 2766 6c49e4afdee5fd3eae3bafc212c51d15 ""
   (generated)
