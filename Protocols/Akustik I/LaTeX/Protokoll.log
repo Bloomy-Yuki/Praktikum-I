@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.1)  11 MAR 2026 23:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.1)  12 MAR 2026 10:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -569,39 +569,42 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has
                                                   \__shipout_drop_firstpage_...
 l.159 
        <./StabB.pdf> <./StabC.pdf>]
-Overfull \hbox (47.6105pt too wide) in paragraph at lines 189--198
-[][]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.198 
+l.189 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.198 
+l.189 
        <./StabD.pdf>]
-Overfull \hbox (55.6381pt too wide) in paragraph at lines 199--208
+Overfull \hbox (52.6105pt too wide) in paragraph at lines 192--201
 [][]
  []
 
 
-Overfull \hbox (49.81006pt too wide) in paragraph at lines 209--218
+Overfull \hbox (55.6381pt too wide) in paragraph at lines 202--211
 [][]
  []
 
 
-Overfull \hbox (51.63406pt too wide) in paragraph at lines 219--227
+Overfull \hbox (49.81006pt too wide) in paragraph at lines 212--221
+[][]
+ []
+
+
+Overfull \hbox (51.63406pt too wide) in paragraph at lines 222--230
 [][] 
  []
 
-) [5] (./Protokoll.aux)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]) [6] (./Protokoll.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -610,18 +613,18 @@ Package rerunfilecheck Info: File `Protokoll.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19804 strings out of 474222
- 421335 string characters out of 5748734
+ 19805 strings out of 474222
+ 421341 string characters out of 5748734
  1946975 words of memory out of 5000000
  41816 multiletter control sequences out of 15000+600000
  591749 words of font info for 79 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  122i,19n,121p,10986b,909s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Protokoll.pdf (5 pages, 195862 bytes).
+Output written on Protokoll.pdf (6 pages, 197778 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
+ 301 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

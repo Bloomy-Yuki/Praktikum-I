@@ -175,6 +175,7 @@ $
   $E$ und $\rho$ mit einschlägigen Literaturwerten.
 \end{aufgabe}
 
+We start by determining the frequencies of each material, to do that we use the fast fourier transform of the measured signal, and we identify the frequency with the highest amplitude as the fundamental frequency of the material, We repeat this process twice for each material, we use the frequency resolution $\Delta f$ as gaussian error for conservative systemic error estimates. We obtain the following frequencies:
 
 \begin{tabular}{lllll}
 frequency & Measurement 1 &  Measurement 2 & Summary\\
@@ -186,8 +187,10 @@ $f_D$ & 1512.5 \text{ Hz} & 1512.5\text{ Hz} & $\sigma = 0 + 12.5\text{ Hz}$\\
 \end{tabular}
 \vspace{1em}
 
+The following tables include the values of $M$, $L$ and $D$ for each material, along with their uncertainties, which include the sum of the statistical error and the systemic error, the values come from the previous tables, and we use the same method to calculate the uncertainties.
+
 \begin{tabular}{llllr}
-Mass & Measurement &  Uncertainty & \hspace{220pt} Notes \\
+Mass & Measurement &  Uncertainty & \hspace{225pt} Notes \\
 \hline \\
 $M_A$ & 407.5 \text{ g} & 0.11 \text{ g} & \\
 $M_B$ & 1233.5 \text{ g} & 0.11 \text{ g} & \\
@@ -227,6 +230,8 @@ $f_D$ & 1512.5 \text{ Hz} & 12.5 \text{ Hz} & \\
 
 
 \vspace{1em}
+We then compute the E-Modul $E$ and the density $\varrho$ for each material using the following formulas:
+
 \begin{equation}
   E = \frac{16}{\pi}  ML \frac{f_{0}^{2}}{D^{2}} \hspace{40pt}  \varrho  =  \frac{M}{\pi L(D/2)^{2}}
 \end{equation}
@@ -247,3 +252,7 @@ Copper & $E$ & 108.04 $\pm$ 1.63\text{ GPa} & 110 \text{ GPa} \\
 & $\varrho$ & 7094.82 $\pm$ 106.62 \text{ kg/m$^3$} & 8900 \text{ kg/m$^3$} \\
 
 \end{tabular}
+\vspace{2em}
+
+
+The dominant errors contribution for the E-Modul $E$ is the errors on the frequency $f$ and the diameter $D$, while for the density $\varrho$ the dominant error contribution is the error of the diameter $D$. We also notice a difference between our calculated values and the litrature, which hints at possible systematic error in our measurements, which is possibly due to frequency not being exactly the fundamental frequency, in addition to other factors such as the non uniformity of the materials.
