@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1773498592.99671 "/home/sophie/Documents/Praktikum-I/Protocols/W-Lehre II/LaTeX/Protokoll.tex" "Protokoll.pdf" "Protokoll" 1773498595.79948 0
+["pdflatex"] 1773509960.11478 "/home/sophie/Documents/Praktikum-I/Protocols/W-Lehre II/LaTeX/Protokoll.tex" "Protokoll.pdf" "Protokoll" 1773509961.87388 0
   "/etc/texmf/web2c/texmf.cnf" 1772346883.2788 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/sophie/Documents/Praktikum-I/Protocols/W-Lehre II/LaTeX/Protokoll.tex" 1773491947.4229 11390 eea4a75f0337b4cd7c85d052808a9e88 ""
+  "/home/sophie/Documents/Praktikum-I/Protocols/W-Lehre II/LaTeX/Protokoll.tex" 1773509837.50074 11409 db7ca87c4ff0789d5e96a853951a4964 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -90,6 +90,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "/usr/share/texlive/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/share/texlive/texmf-dist/tex/latex/footmisc/footmisc.sty" 1688586963 21399 e9fa1517a82f349507e998594ef20b82 ""
   "/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -141,11 +142,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1772346920.04166 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1772346977 8214625 e508b977e187dc1c8769631c935f0cd9 ""
-  "Protokoll.aux" 1773498595.67164 3319 24991cf0d3b8beab5c2e1580132d3980 "pdflatex"
-  "Protokoll.out" 1773498595.37263 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Protokoll.tex" 1773491947.4229 11390 eea4a75f0337b4cd7c85d052808a9e88 ""
-  "aufgaben_adiabatenkoeffizient.tex" 1773498591.88362 4568 0833091ba26158625f0e92ece7a848db ""
+  "Protokoll.aux" 1773509961.78711 3563 82c5a337412aab973f43afc5996e8c4c "pdflatex"
+  "Protokoll.out" 1773509961.58263 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Protokoll.tex" 1773509837.50074 11409 db7ca87c4ff0789d5e96a853951a4964 ""
+  "aufgaben_adiabatenkoeffizient.tex" 1773509957.74119 5515 c08f2f8f0f4310ad3bf0f7d687fa2bcf ""
   "beispiel_abbildung.pdf" 1772645934.9041 19289 610ce80f8b3a8557f1c85689f974e8d0 ""
+  "pressure_1L.pdf" 1773509358.612 21479 f3ff5459e98d978867630bdca020e303 ""
   "protokoll.cls" 1772645931.71918 2766 6c49e4afdee5fd3eae3bafc212c51d15 ""
   (generated)
   "Protokoll.aux"
