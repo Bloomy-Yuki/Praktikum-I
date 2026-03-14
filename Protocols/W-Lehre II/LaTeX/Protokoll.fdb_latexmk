@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1773497818.08489 "/home/sophie/Documents/Praktikum-I/Protocols/W-Lehre II/LaTeX/Protokoll.tex" "Protokoll.pdf" "Protokoll" 1773497820.55846 0
+["pdflatex"] 1773498592.99671 "/home/sophie/Documents/Praktikum-I/Protocols/W-Lehre II/LaTeX/Protokoll.tex" "Protokoll.pdf" "Protokoll" 1773498595.79948 0
   "/etc/texmf/web2c/texmf.cnf" 1772346883.2788 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/sophie/Documents/Praktikum-I/Protocols/W-Lehre II/LaTeX/Protokoll.tex" 1773491947.4229 11390 eea4a75f0337b4cd7c85d052808a9e88 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -141,10 +141,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1772346920.04166 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1772346977 8214625 e508b977e187dc1c8769631c935f0cd9 ""
-  "Protokoll.aux" 1773497820.434 3319 24991cf0d3b8beab5c2e1580132d3980 "pdflatex"
-  "Protokoll.out" 1773497820.137 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Protokoll.aux" 1773498595.67164 3319 24991cf0d3b8beab5c2e1580132d3980 "pdflatex"
+  "Protokoll.out" 1773498595.37263 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Protokoll.tex" 1773491947.4229 11390 eea4a75f0337b4cd7c85d052808a9e88 ""
-  "aufgaben_adiabatenkoeffizient.tex" 1773497814.69389 4555 ce70399dbcb385a6ca4efc31ec8ed227 ""
+  "aufgaben_adiabatenkoeffizient.tex" 1773498591.88362 4568 0833091ba26158625f0e92ece7a848db ""
   "beispiel_abbildung.pdf" 1772645934.9041 19289 610ce80f8b3a8557f1c85689f974e8d0 ""
   "protokoll.cls" 1772645931.71918 2766 6c49e4afdee5fd3eae3bafc212c51d15 ""
   (generated)
