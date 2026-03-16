@@ -21,12 +21,12 @@ We first fix the flask in place and attach the tubes tightly to make sure no air
 we summarise the measurements in the following tables:
 \begin{table}[H]
   \begin{tabular}{l|ccc}
-    Properties & \multicolumn{3}{|c}{Measurements } \\ \\ \hline
+    Properties & \multicolumn{3}{|c}{Measurements }  \\ \\ \hline
      m (g) & 16,5 & 16,4 & 16,4  \\
            &  &  &  \\ \hline
      p (hPa)& 981 & 980 &  \\
            &  &  &  \\ \hline
-     D (mm) & 15,98 &15,55  &  \\
+     D (mm) & 15,98 &15,55  &  15,99\\
            &  &  &  \\ \hline
      T$_{0}$ (s) &0,38  & 0,39 & 0,38 \\
            & 0,39 &  0,38 &0,39  \\ \hline
@@ -38,7 +38,7 @@ we summarise the measurements in the following tables:
 \begin{itemize}
   \item We measured the mass of the ball using the scale available in the lab.
   \item We measured the pressure using the pressure sensor in lab along the first few minutes.
-  \item We measured the diameter of the ball using the micrometer caliper available in the lab.
+  \item We measured the diameter of the ball using the micrometer caliper available in the lab and the vernier caliper for a second uncorrelated measurement.
   \item We measured the period of the oscillation using the Cassy measurements and the time difference between multiple peaks.
   \item The measured height of the ball was ($13 \pm 0.1$) cm in the 1 Liter flask.
 \end{itemize}
@@ -68,34 +68,100 @@ we summarise the measurements in the following tables:
 
 
 \subsection{Errors and assumptions}
-We summarize our errors using the given uncertainties: we add the squares  of the calculated standard deviations and the squared sum of the stat. errors given by the manufacturer and the resolution of the measuring tool. In the case of the scale we use the $0,2$ g given to us by the manufacturer as the first statistical error, while an extra $0.1$ g for the resolution of the scale.
+We summarize our errors using the given uncertainties: we add the squares  of the calculated standard deviations and the squared sum of the stat. errors given by the manufacturer and the resolution of the measuring tool. In the case of the scale we use the $0,2$ g given to us by the manufacturer as the first uniform statistical error, while an extra $0.1$ g for the resolution of the scale, which is also assumed to be uniform.
 \vspace{1em}
-As for the uncertainties of the pressure sensor, we use the $1$ hPa resolution uncertainty and the standard deviation of the measured pressures.
+
+As for the uncertainties of the pressure sensor, we use the $1$ hPa resolution uncertainty as uniformly distributed error and the standard deviation of the measured pressures.
 \vspace{1em}
-For the micrometer caliper, we use the $0.01$ mm resolution uncertainty and the standard deviation of the measured diameters.
+
+For the micrometer caliper and the vernier caliper, we use the $0,01$ mm, $0,05$mm resolution uncertainties and the standard deviation of the measured diameters while noting the noticeable difference of the measurements (around $2,8 \%$) as systemic error in our measurement method.
+\vspace{1em}
+
+Finally, for the Cassy measurements, we use the standard deviation of the measured periods and the $0,01$ s resolution of the Cassy as uniformly distributed error.
+
+
+$$
+\sigma _{m}  =  \frac{0,02}{\sqrt{ 3 }} \text{mm} \\ \oplus \\ 0,057 \text{mm}
+$$
+$$
+\sigma _{p}  =  \frac{1}{\sqrt{ 3 }}\text{hPa} \oplus 0.707\text{hPa}  
+$$
+$$
+\sigma _{D}  =  \left( \frac{0.01}{\sqrt{ 3 }} \oplus  \frac{0.05}{\sqrt{ 3 }}  \right)\text{mm} \oplus 0.251 \text{mm}
+$$
+$$
+\sigma _{T}  =  \frac{0,01}{\sqrt{ 3 }}\text{ s}\oplus 0,0054 \text{ s}
+$$
+
 
 \begin{table}[h]
   \centering
   \begin{tabular}{l|ccc}
     Measurement tool & Stat. error  & Sys. error & Combined errors\\ \\ \hline
-     Scale (g) &  &  &  \\
+     Scale (g) & 0,057 &  0,152& 0,162 \\
            &  &  &  \\ \hline
-     Pressure sensor (hPa)&  &  &  \\
+     Pressure sensor (hPa)& 0,707 & 0,577  & 0,912 \\
            &  &  &  \\ \hline
-     Micrometer caliper (mm) &  &  &  \\
+     Micrometer caliper/ Vernier caliper (mm)&  0,251 &  0,029& 0,252 \\
            &  &  &  \\ \hline
-     Cassy (s) &  &  &  \\
+     Cassy (s) & 0,0054 & 0,00577  & 0,0079 \\
            &  &  &  \\ \hline
   \end{tabular}
-  \caption{Beispieltabelle.}
-  \label{tab:beispieltabelle}
+  \caption{uncertainties.}
+  \label{tab:uncertainties in measured quantities}
 \end{table}
 
+\vspace{1em}
+
+Lastly for the Volume, we show the measured volume for each section of our apparatus, for this section of calculations we need the measurements for the lenght of the tubes and the diameter of the inner section of these tubes, use a conservative uncertainty of $1$ cm for every tube and $0,1$ cm for the diameter and hight of the ball:
+\begin{table}[H]
+  
+  \begin{tabular}{c|c}
+    length & measurement \\ \hline
+    l$_{1}$ & 42$\pm$ 1 \text{ cm} \\ \hline
+    l$_{2}$ & 30 $\pm$ 1 \text{ cm}  \\ \hline
+    l$_{3}$ & 34,2 $\pm$ 1 \text{ cm} \\ \hline
+    d       & 0,62 $\pm$ 0,1 \text{ cm} \\ \hline
+    h       & 13 $\pm$ 0,1 \text{ cm} \\ \hline
+  \end{tabular}
+  \caption{measurements of lengths for voume calulation}
+\end{table}
+
+and we use the following formulas to calulate the volumes:
+
+$$
+V_{tube}  =  \pi\left( \frac{d}{2} \right)^{2} (l_{1}+l_{2}+l_{3})
+$$
+$$
+V_{ball}  =  \pi\left( \frac{D}{2} \right)^{2} h
+$$
+$$
+V_{flask}  =\frac{m_{water}}{\rho_{water}}  =  \frac{1,4426 -0,3029}{998,4} \text{m}^{3}
+$$
 
 
 
-
-
+\begin{table}[H]
+  
+  \begin{tabular}{l|ccc}
+    Properties & \multicolumn{3}{|c}{Measurements } \\  \\ \hline
+     V $_{\text{tube}}$ (m$^{3}$)&  3,206 $\pm$ 0,1158 $10^{-5}$&  &  \\
+           &  &  &  \\ \hline
+     V $_{\text{ball}}$ (m$^{3}$)&  2,561 $\pm$ 0,099 $10^{-5}$&  &  \\
+           &  &  &  \\ \hline
+     V$_{\text{flask}}$ (m$^{3}$) & 114,152 $\pm$ 0.015 $10^{-5}$&  &  \\
+           &  &  &  \\ \hline
+     V (m$^{3}$) & 119,92 $\pm$ 0,14 $10^{-5}$ &  &  \\
+           &  &  &  \\ \hline
+  \end{tabular}
+  \caption{Calculated volumes}
+  \label{tab:volumes}
+\end{table}
+Lastly in this section, we calculate the pressure exerted by the ball from the hight of which it was at equilibrium state:
+$$
+p _{ b}  =  \frac{mg}{A}  =  \frac{mg}{\pi \left( \frac{D}{2} \right)^{2}}
+$$
+which finally results in : $8,18 \pm 0,27$ hPa. which brings the total amount of pressure to $p_t = p + p_0 = 988.6 \pm 1.03$ hPa.
 
 
 
@@ -119,6 +185,51 @@ For the micrometer caliper, we use the $0.01$ mm resolution uncertainty and the 
 \end{aufgabe}
 
 
+
+\subsection{Adiabatic coeffcient}
+
+In order to calculate the adiabatic coeffcient, we first neeed to calculate the error propagation of each of the variables using the tables we established eariler. then we Analyse the contribution of each variable so we get an idea as to whether our result is within reasonable bounds. the formula for calculating the adiabatic coeffcient is:
+
+
+$$
+\kappa  =  64 \frac{mV}{p D^{4}T^{2}}
+$$
+
+and we can calculate the total error using error propagation of our multiplicative formula, each percentage is multiplied by the exponent to give a clearer view of the contributions:
+$$
+\left( \frac{\sigma _{\kappa}}{\kappa} \right)^{2}  = \left( \frac{\sigma _{m}}{m} \right)^{2} + \left(  \frac{\sigma _{V}}{V} \right) ^{2} + \left( \frac{\sigma _{p_t}}{p_t} \right)^{2} +\left( \frac{4\sigma _{D}}{D} \right)^{2} + \left( \frac{2\sigma _{T}}{T} \right)^{2}
+$$
+
+
+
+\begin{table}[H]
+\begin{tabular}{c|cccccc}
+Propertiy & $\kappa$ & $m$ & $p$ & $V$ & $D$ & $T$     \\ \hline 
+relative error & $7,6\%$ & $1\%$ & $1\%$ & $0,1\%$ & $6,3\%$  & $4,1\%$ \\ \hline
+\end{tabular}
+\end{table}
+
+We can observe from the above table that our largest errors were the diameter of the ball and the period time, which should ultimately contribute to about $8\%$ of the final result.
+
+\vspace{1em}
+
+We finally
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \begin{table}[h]
   \centering
   \begin{tabular}{l|ccc}
@@ -133,3 +244,4 @@ For the micrometer caliper, we use the $0.01$ mm resolution uncertainty and the 
   \caption{Beispieltabelle.}
   \label{tab:beispieltabelle}
 \end{table}
+

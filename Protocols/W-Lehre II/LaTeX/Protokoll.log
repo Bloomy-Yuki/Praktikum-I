@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.1)  14 MAR 2026 18:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.1)  17 MAR 2026 00:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -392,9 +392,6 @@ LaTeX Warning: Label `tab:beispieltabelle' multiply defined.
 
 LaTeX Warning: Label `tab:beispieltabelle' multiply defined.
 
-
-LaTeX Warning: Label `tab:beispieltabelle' multiply defined.
-
 )
 \openout1 = `Protokoll.aux'.
 
@@ -533,23 +530,34 @@ Package pdftex.def Info: pressure_1L.pdf  used on input line 48.
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.76 
+l.73 
      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.76 
+l.73 
       <./pressure_1L.pdf>]
+Overfull \hbox (38.0317pt too wide) in paragraph at lines 99--110
+ [][] 
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [3
+[3
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.59 \clearpage
-               ] [4
+l.128 \end{table}
+                 ] [4
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.178 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.178 
+      ]) [5
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.59 \clearpage
@@ -558,7 +566,7 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 70
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-<beispiel_abbildung.pdf, id=102, 1386.13857pt x 722.7pt>
+<beispiel_abbildung.pdf, id=114, 1386.13857pt x 722.7pt>
 File: beispiel_abbildung.pdf Graphic file (type pdf)
 <use beispiel_abbildung.pdf>
 Package pdftex.def Info: beispiel_abbildung.pdf  used on input line 115.
@@ -568,19 +576,19 @@ Overfull \hbox (5.78633pt too wide) in paragraph at lines 97--122
 \T1/phv/m/n/12 Abbildungen las-sen sich mit ei-ner \T1/cmtt/m/n/12 figure\T1/phv/m/n/12 -Umgebung ein-fü-gen. Ver-wei-se (Abb. []2[])
  []
 
-[5
+[6
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [6
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.156 \end{verbatim}
                     
-pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.156 \end{verbatim}
-                     <./beispiel_abbildung.pdf>] [7] [8
+                     <./beispiel_abbildung.pdf>] [8] [9
 
 ]
 Overfull \hbox (0.6953pt too wide) in paragraph at lines 216--219
@@ -602,7 +610,7 @@ Overfull \hbox (2.05164pt too wide) in paragraph at lines 259--262
 \T1/phv/m/n/12 (ins-be-son-de-re zur Feh-ler-rech-nung) und re-le-van-te Zwi-schen-er-geb-nis-se an-
  []
 
-[9] [10] (./Protokoll.aux)
+[10] [11] (./Protokoll.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -615,18 +623,18 @@ Package rerunfilecheck Info: File `Protokoll.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19934 strings out of 474222
- 424173 string characters out of 5748734
+ 19944 strings out of 474222
+ 424307 string characters out of 5748734
  1940975 words of memory out of 5000000
- 41904 multiletter control sequences out of 15000+600000
- 601131 words of font info for 100 fonts, out of 8000000 for 9000
+ 41909 multiletter control sequences out of 15000+600000
+ 604603 words of font info for 102 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  122i,19n,121p,10987b,1058s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Protokoll.pdf (10 pages, 223488 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Protokoll.pdf (11 pages, 245176 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 35 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
