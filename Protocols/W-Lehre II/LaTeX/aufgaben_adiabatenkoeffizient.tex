@@ -213,35 +213,35 @@ We can observe from the above table that our largest errors were the diameter of
 
 \vspace{1em}
 
-We finally
+We finally calculatet the value for $\kappa$ with this uncertainty while using the mean of our measurements:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\begin{table}[h]
-  \centering
-  \begin{tabular}{l|ccc}
-    Properties & \multicolumn{3}{|c}{Measurements } \\ \\ \hline
-     M (g) &  &  &  \\
-           &  &  &  \\ \hline
-     p(hPa)&  &  &  \\
-           &  &  &  \\ \hline
-     D(mm) &  &  &  \\
-           &  &  &  \\ \hline
+\begin{table}[H]
+  \begin{tabular}{c|rcc}
+    propertiy & value & correlation  \\ \hline
+    m& $16,433 \pm 0,162$ mm  & correlated\\ \hline
+    V& $119,92 \pm 0,14$ $10^{-5}$ m$^{3}$&correlated (for gas container)\\ \hline
+    p& $988,6 \pm 1,3 $ hPa& correlated \\ \hline
+    D& $15,84 \pm 0,252$ mm & correlated\\ \hline
+    T& $0,385 \pm 0,0079$ s  & uncorrelated\\ \hline
+    $\kappa$ & $1,36 \pm 0,10  $&&
   \end{tabular}
-  \caption{Beispieltabelle.}
-  \label{tab:beispieltabelle}
+  \caption{values and uncertainties for final calculation}
 \end{table}
+
+\begin{itemize}
+  \item Errors in mass propagate through all results.
+  \item The shape (and so Volume) of the container affects all results, it should not be correlated across different containers.
+  \item Pressure error should propagate across all measurements due to it being present across all of them.
+  \item Diameter error should also propagate since it results in errors in $\kappa$ .
+  \item The errors of period measurements should not carry over to other measurements since we use cassy to manually determine them. 
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{kappa_1L.pdf}
+  \caption{Adiabatic coeffcient $\kappa$ for the 1L flask.}
+  \label{fig:kappa_1L}
+\end{figure}
+
+Our experiment has resulted in a value of $\kappa$ equaling $1,36 \pm 0,10$ with all correlated and uncorrelated erros, when we look at the uncorrelated error alone, we get a value of $1,36 \pm 0,0557$ which is still within the error bounds of the literature value of $1,4$. we can also see that the correlated errors have a significant contribution to the final result. mainly the error in the diameter of the ball we are measuring.
 

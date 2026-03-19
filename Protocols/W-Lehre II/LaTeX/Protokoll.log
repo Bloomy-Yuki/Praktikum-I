@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.1)  17 MAR 2026 00:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.1)  17 MAR 2026 11:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -385,14 +385,7 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count298
 \l__pdf_internal_box=\box66
-) (./Protokoll.aux
-
-LaTeX Warning: Label `tab:beispieltabelle' multiply defined.
-
-
-LaTeX Warning: Label `tab:beispieltabelle' multiply defined.
-
-)
+) (./Protokoll.aux)
 \openout1 = `Protokoll.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -556,85 +549,46 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has 
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.178 
-      ]) [5
+      ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+<kappa_1L.pdf, id=108, 947.56512pt x 613.22992pt>
+File: kappa_1L.pdf Graphic file (type pdf)
+<use kappa_1L.pdf>
+Package pdftex.def Info: kappa_1L.pdf  used on input line 241.
+(pdftex.def)             Requested size: 334.60562pt x 216.54253pt.
+) [6
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.59 \clearpage
-               ]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 70.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-<beispiel_abbildung.pdf, id=114, 1386.13857pt x 722.7pt>
-File: beispiel_abbildung.pdf Graphic file (type pdf)
-<use beispiel_abbildung.pdf>
-Package pdftex.def Info: beispiel_abbildung.pdf  used on input line 115.
-(pdftex.def)             Requested size: 397.34137pt x 207.1626pt.
-
-Overfull \hbox (5.78633pt too wide) in paragraph at lines 97--122
-\T1/phv/m/n/12 Abbildungen las-sen sich mit ei-ner \T1/cmtt/m/n/12 figure\T1/phv/m/n/12 -Umgebung ein-fü-gen. Ver-wei-se (Abb. []2[])
- []
-
-[6
-
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [7
+l.60 \end{document}
+                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.156 \end{verbatim}
-                    
-pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.156 \end{verbatim}
-                     <./beispiel_abbildung.pdf>] [8] [9
-
-]
-Overfull \hbox (0.6953pt too wide) in paragraph at lines 216--219
-[]\T1/phv/m/n/12 Statistische Mes-sun-si-cher-heit der Peak-po-si-ti-on durch Wie-der-ho-lungs-mes-
- []
-
-
-Overfull \hbox (4.4441pt too wide) in paragraph at lines 216--219
-\T1/phv/m/n/12 sung be-stimmt? Be-helfs-wei-se Ab-schät-zung, wie ge-nau die La-ge des Peaks
- []
-
-
-Overfull \hbox (3.42555pt too wide) in paragraph at lines 259--262
-[]\T1/phv/m/n/12 Auswertung: Vor-ge-hen nach-voll-zieh-bar be-schrie-ben? Ver-wen-de-te For-meln
- []
-
-
-Overfull \hbox (2.05164pt too wide) in paragraph at lines 259--262
-\T1/phv/m/n/12 (ins-be-son-de-re zur Feh-ler-rech-nung) und re-le-van-te Zwi-schen-er-geb-nis-se an-
- []
-
-[10] [11] (./Protokoll.aux)
+l.60 \end{document}
+                    <./kappa_1L.pdf>] (./Protokoll.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `Protokoll.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19944 strings out of 474222
- 424307 string characters out of 5748734
- 1940975 words of memory out of 5000000
- 41909 multiletter control sequences out of 15000+600000
- 604603 words of font info for 102 fonts, out of 8000000 for 9000
+ 19845 strings out of 474222
+ 422229 string characters out of 5748734
+ 1939975 words of memory out of 5000000
+ 41846 multiletter control sequences out of 15000+600000
+ 594952 words of font info for 82 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 122i,19n,121p,10987b,1058s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Protokoll.pdf (11 pages, 245176 bytes).
+ 122i,19n,121p,10987b,1000s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Protokoll.pdf (6 pages, 163651 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
- 50 named destinations out of 1000 (max. 500000)
+ 246 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
