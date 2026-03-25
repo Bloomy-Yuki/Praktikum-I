@@ -1,0 +1,125 @@
+\section{Michelson-Interferometer}
+
+\begin{aufgabe}{Rauschmessung}
+  Tabellieren Sie die Rohdaten Ihrer Messungen zur wiederholten
+  Einstellung und Ablesung an einem festen Maximum. Berechnen Sie aus
+  ihren Messwerten die empirische Standardabweichung als Maß für die
+  Messunsicherheit bei den folgenden Messungen mit dem
+  Feinsteinstelltrieb.
+\end{aufgabe}
+
+% Bitte belassen Sie die Aufgabentexte in Ihrem Protokoll und beginnen
+% Sie hier mit der Lösung der ersten Aufgabe:
+
+% Achten Sie darauf, alle verwendeten Formeln anzugeben und die
+% verwendeten Formelzeichen zu definieren.
+
+\subsection{Noise level through repeated measurements.}
+\textbf{Goal:} \\
+The detrermination of the noise through the measurement of the standard deviation of repeated length measurements with a fixed starting point. We also need to mention that we were allowed by the instructor to estimate the fractional values of the reading on the caliper, which is why we have values such as $7.419$ mm in our measurements, which is an estimation of the reading on the caliper.
+\vspace{1em}
+
+
+\textbf{Methodology:}
+\begin{itemize}
+    \item We perform 8 measurements of the length corresponding to an difference of number of maxima of $\Delta m=10$.
+    \item We start by noting our starting position at $s_0 = 7.485$ mm where we locate a maximum. we then move the micrometer screw until we observe $\Delta m = 10$ maxima and note the new position $s_i$ for each measurement.
+    \item We then calculate the length difference $\Delta s_i = s_i - s_0$ for each measurement and use these values to calculate the arithmetic mean and standard deviation. we then use it as a measure of the noise in our measurements.
+\end{itemize}
+
+\textbf{Data:}
+
+We then tabulate our measurements as follows, making sure to include the calculated length differences $\Delta s_i$ for each measurement:
+
+\begin{table}[H]
+    \centering
+    \label{tab:messwerte}
+    \begin{tabular}{ccc}
+        \toprule
+        reading & value (mm) & $\Delta s_i =  s_i - s_0$ (mm)\\
+        \midrule
+        $s_1$ & 7.419 & 0.066\\
+        $s_2$ & 7.420 & 0.065\\
+        $s_3$ & 7.412 & 0.073\\
+        $s_4$ & 7.418 & 0.067\\
+        $s_5$ & 7.415 & 0.070\\
+        $s_6$ & 7.410 & 0.075\\
+        $s_7$ & 7.412 & 0.073\\
+        $s_8$ & 7.411 & 0.074\\
+        \bottomrule
+    \end{tabular}
+    \caption{Measurements for the $m=10$ readings on the caliper}
+\end{table}
+
+\textbf{Evaluation:} \\
+After obtaining our data, we then calculated the arithmetic mean and the empirical standard deviation, and the error on the mean as follows:
+\begin{align}
+    \bar{s} &= \frac{1}{8} \sum_{k=1}^{8} \Delta s_{k}, \\
+    s_{\Delta s} &= \sqrt{\frac{1}{8-1} \sum_{k=1}^{8} \left(\Delta s_k - \bar{s}\right)^2}, \\
+    \Delta \bar{s} &= \frac{s_{\Delta s}}{\sqrt{8}}.
+    \label{eq:uncertainty_workflow for measurements}
+\end{align}
+
+\begin{verbatim}
+    arithmetic mean: 0.070 mm
+    empirical standard deviation: 0.0039 mm
+    error on the mean: 0.0013 mm
+    end result: 0.070 +/- 0.0013 mm
+\end{verbatim}
+
+\textbf{comments:} \\
+through our last measurement, we obtained a value of $ \bar{s}  = 0.070 \pm 0.0013$ mm for the length difference corresponding to $\Delta m = 10$ maxima. This means that the noise in our measurements is equal to  $0.0013$ millimeters, which is a reasonable value for this type of measurement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{aufgabe}{Kalibration des Übersetzungsfaktors}
+  Bestimmen Sie den Übersetzungsfaktor $k$ des Feinsteinstelltriebes.
+  Verwenden Sie dazu mehrere Messreihen über einen kürzeren Bereich
+  der Skala $s$ der Mikrometerschraube oder eine Messreihe über einen
+  längeren Bereich. Tabellieren Sie $s$ in Abhängigkeit der Anzahl der
+  durchlaufenen Maxima $m$ und führen Sie geeignete lineare
+  Regressionen zur Bestimmung von $k$ durch. Unter Umständen müssen
+  Sie den Bereich der Skala dabei unterteilen und jeweils verschiedene
+  Werte von $k$ bestimmen. Geben Sie Ihren Wert bzw.~Ihre Werte für
+  $k$ samt Messunsicherheit an.
+\end{aufgabe}
+
+
+\begin{aufgabe}{Vermessung der Wellenlänge des Nd:YV04-Lasers}
+  Bestimmen Sie die Wellenlänge $\lambda$ des
+  Nd:YV04-Lasers. Tabellieren Sie $s$ in Abhängigkeit der Anzahl der
+  durchlaufenen Maxima $m$ und führen Sie lineare Regressionen
+  durch. Tabellieren Sie die Ergebnisse Ihrer
+  Anpassungsrechnungen. Bestimmen Sie in geeigneter Weise ein
+  Endergebnis für $\lambda$ und die zugehörige
+  Messunsicherheit. Diskutieren Sie die Natur der Beiträge zur
+  Gesamtunsicherheit. Vergleichen Sie Ihr Endergebnis mit der
+  Herstellerangabe.
+\end{aufgabe}
+
+
+

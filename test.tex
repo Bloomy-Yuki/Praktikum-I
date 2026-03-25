@@ -1,0 +1,174 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{amsmath}
+
+\begin{document}
+\begin{table}[h]
+    \centering
+    
+    \label{tab:messwerte}
+    \begin{tabular}{cc}
+        \toprule
+        Größe & Wert \\
+        \midrule 
+        $x_1$ & 0.0 \\
+        $x_2$ & 0.0 \\
+        $x_3$ & 0.0 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Messwerte}
+\end{table} 
+
+\begin{table}[h]
+    \centering
+    \caption{Messwerte mit Unsicherheiten}
+    \label{tab:messwerte_u}
+    \begin{tabular}{ccc}
+        \toprule
+        Größe & Wert & Unsicherheit \\
+        \midrule
+        $x_1$ & 0.0 & 0.0 \\
+        $x_2$ & 0.0 & 0.0 \\
+        $x_3$ & 0.0 & 0.0 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+
+
+
+\begin{table}[h]
+    \centering
+    \caption{Messreihe}
+    \label{tab:messreihe}
+    \begin{tabular}{ccc}
+        \toprule
+        Messung & x\,/\,\si{\meter} & y\,/\,\si{\second} \\
+        \midrule
+        1 & 0.0 & 0.0 \\
+        2 & 0.0 & 0.0 \\
+        3 & 0.0 & 0.0 \\
+        \bottomrule
+    \end{tabular}
+\end{table} 
+
+
+\begin{equation}
+    \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}
+    \label{eq:mean}
+\end{equation}
+
+\begin{equation}
+    s_{x} = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} \left(x_{i} - \bar{x}\right)^2}
+    \label{eq:std}
+\end{equation}
+
+\begin{equation}
+    \Delta \bar{x} = \frac{s_{x}}{\sqrt{n}}
+    \label{eq:sem}
+\end{equation}
+
+\begin{equation}
+    \Delta x = \sqrt{\left(\Delta x_{\mathrm{stat}}\right)^2 + \left(\Delta x_{\mathrm{sys}}\right)^2}
+    \label{eq:combined_uncertainty}
+\end{equation}  
+
+\begin{equation}
+    \Delta f = \sqrt{\left(\frac{\partial f}{\partial x} \Delta x\right)^2 + \left(\frac{\partial f}{\partial y} \Delta y\right)^2 + \left(\frac{\partial f }{\partial z} \Delta z\right)^2 }
+    \label{eq:error_propagation}
+\end{equation}
+
+
+
+\begin{equation}
+    \frac{\Delta L}{L} = expression
+    \label{eq:relative_uncertainty}
+\end{equation}
+
+\begin{equation}
+    \Delta f_{\mathrm{res}} = \frac{2}{\sqrt{12}}
+    \label{eq:resolution_uncertainty}
+\end{equation}
+
+
+\begin{equation}
+    \Delta x_{\mathrm{sys}} = value
+    \label{eq:manufacturer_uncertainty}
+\end{equation}
+
+\begin{equation}
+    x = (value \pm uncertainty)\,\si{\meter}
+    \label{eq:result}
+\end{equation}
+
+
+\begin{align}
+    y &= expression_1 \\
+           &= expression_2
+    \label{eq:derivation}
+\end{align}
+
+
+
+{
+
+\begin{align}
+    \bar{x} &= \frac{1}{n} \sum_{i=1}^{n} x_{i}, \\
+    s_{x} &= \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} \left(x_{i} - \bar{x}\right)^2}, \\
+    \Delta \bar{x} &= \frac{s_{x}}{\sqrt{n}}.
+    \label{eq:uncertainty_workflow}
+\end{align}
+
+
+\begin{align}
+    \bar{x} &= \frac{1}{n} \sum_{i=1}^{n} x_{i} = value\,\si{\meter}, \\
+    s_{x} &= value\,\si{\meter}, \\
+    \Delta \bar{x} &= \frac{s_{x}}{\sqrt{n}} = value\,\si{\meter}.
+    \label{eq:rep_result}
+\end{align}
+
+\begin{align}
+    f &= expression, \\
+    \Delta f &= \sqrt{\left(\frac{\partial f}{\partial x} \Delta x\right)^2 + \left(\frac{\partial f}{\partial y} \Delta y\right)^2} = value\,\si{\meter}.
+    \label{eq:derived_propagation}
+\end{align}
+
+\begin{equation}
+    \hat{V}_{xy} = \frac{1}{n-1} \sum_{i=1}^{n} \left(x_{i} - \bar{x}\right)\left(y_{i} - \bar{y}\right)
+    \label{eq:empirical_covariance}
+\end{equation}
+\begin{equation}
+    \sigma_{y}^2 \approx \sum_{i,j=1}^{n} \left[\frac{\partial y}{\partial x_{i}}\frac{\partial y}{\partial x_{j}}\right]_{x=\mu} V_{ij}
+    \label{eq:error_propagation_cov}
+\end{equation}  
+
+\begin{equation}
+    \chi^2(\theta) = \sum_{i=1}^{N} \frac{\left(y_{i} - \lambda(x_{i}; \theta)\right)^2}{\sigma_{i}^2}
+    \label{eq:chi2}
+\end{equation}
+
+\begin{equation}
+    \chi^2_{\mathrm{red}} = \frac{\chi^2_{\min}}{n_\mathrm{f}}
+    \label{eq:reduced_chi2}
+\end{equation}
+
+x=\qty[uncertainty-descriptors={stat.,sys.}]{9.815+-0.020+-0.033}{m/s^2}
+\begin{equation}
+    x = (value \pm uncertainty)\,\si{\meter}
+    \label{eq:result}
+\end{equation}
+
+}
+
+\begin{equation}
+    \bar{y} = \frac{\sum_{i=1}^{N} y_{i}/\sigma_{i}^2}{\sum_{i=1}^{N} 1/\sigma_{i}^2}
+    \label{eq:weighted_mean}
+\end{equation}
+
+\begin{equation}
+    \sigma_{\bar{y}}^2 = \frac{1}{\sum_{i=1}^{N} 1/\sigma_{i}^2}
+    \label{eq:weighted_mean_variance}
+\end{equation}
+
+\end{document}
